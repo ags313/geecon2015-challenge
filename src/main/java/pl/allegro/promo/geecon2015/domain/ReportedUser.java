@@ -45,4 +45,13 @@ public class ReportedUser {
     public int hashCode() {
         return Objects.hash(id, name, transactionsAmount);
     }
+
+    @Override
+    public String toString() {
+        return "ReportedUser{" +
+            "id=" + id +
+            ", name='" + name + '\'' +
+            ", transactionsAmount=" + transactionsAmount +
+            '}';
+    }
 }
